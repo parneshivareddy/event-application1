@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(bg2.jpg);
+    
+    position: cover ;
+}
+nav{
+    background-color: rgba(6,6,6,0.8);
+    width:95%;
+    height: 20%;
+    margin-left: 25px;
+    position: fixed;
+}
+
+
+    
+.logo{
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    float: left;
+}
+.date{
+    font-family: inherit;
+    font-weight: bold;
+    color:aqua;
+    float: left;
+    margin-left: 700px;
+    padding: 20px;
+    
+}
+.main{
+    float:inline-end;
+    padding: 10px;
+    margin: 0px;
+    
+    
+}
+ul li {
+    display: inline-block;
+    text-align: center;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    
+}
+.reg{
+ width: 95%;
+ height: 140px;
+ background-color: aquamarine;
+ margin-left: 25px;
+}
+.reg h2{
+    text-align: center;
+    color: rgb(81, 255, 0);
+    font-size: 35px;
+}
+.reg p{
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: inherit;
+}
+.ven{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+.ven h1{
+    color:blue;
+    font-family: inherit;
+}
+.ven h1{
+    font-family: inherit;
+    font-weight: bold;
+}
+.ven h2{
+    font-family: inherit;
+    font-weight: bold;
+    
+}
+.ven p{
+    
+    font-weight: bold;
+    font-size: 18px;
+}
+.ven img{
+    border-radius: 20px;
+    border: 1px solid gray;
+}

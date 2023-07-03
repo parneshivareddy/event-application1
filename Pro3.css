@@ -1,0 +1,396 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: darkslategrey;
+    width: 95%;
+    height: 18%;
+    margin-left: 25px;
+    position: fixed;
+}
+
+
+    
+.logo{
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    float: left;
+}
+.date{
+    font-family: inherit;
+    font-weight: bold;
+    color:aqua;
+    float: left;
+    margin-left: 700px;
+    padding: 20px;
+    
+}
+.main{
+    float:inline-end;
+    padding: 10px;
+    margin: 0px;
+    
+    
+}
+ul li {
+    display: inline-block;
+    text-align: center;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    
+}
+.container{
+    width: 71%;
+    height: 25%;
+    padding: 162px;
+    
+    background-color: rgba(6,6,6,0.8);
+    margin-left: 25px;
+
+}
+.container h2{
+    text-align: center;
+    color:aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+
+}
+.container  p{
+    text-align: center;
+    color:#fff;
+  font-size: 20px;
+  padding: 5px;
+}
+.btn{
+    border-radius: 0px;
+    margin-left: 400px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: burlywood;
+}
+.btn a{
+    text-decoration: none;
+    color:aliceblue;
+}
+.boxes{
+    display: grid;
+    grid-gap: 20px;
+    padding: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}  
+
+.box{
+    background: rgb(170, 220, 70);
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    box-shadow: var(--shadow);
+
+}
+.box h3{
+    color:blueviolet
+}
+.box p{
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+}
+.foot{
+    margin-top: 40px;
+    background-color: darkslategrey;
+    height: 80px;
+}
+.t1{
+    color: rgb(80, 238, 233);
+    margin-left: 200px;
+    font-size: 20px;
+}
+.t2{
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+    
+    
+
+.reg{
+ width: 95%;
+ height: 140px;
+ background-color: rgb(162, 240, 147);
+ margin-left: 25px;
+}
+.reg h2{
+    text-align: center;
+    color:  rgb(48, 86, 86);;
+    font-size: 35px;
+}
+.reg p{
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: inherit;
+}
+.spr1{
+    margin-top: 50px;
+    border-color: blue;
+    border: 20px 20px 20px 20px;
+}
+.spr1 h2{
+
+    color:rgb(23, 232, 232);
+    padding: 20px;
+    text-align: center;
+    
+}    
+.spr1 img{
+    float: right;
+    border-radius: 50px;
+}
+.spr1 p{
+    font-size: 20px;
+
+    font-family: inherit;
+    margin-left: 20px;
+}
+.spr2{
+    margin-top: 50px;
+}
+.spr2 h2{
+    padding: 20px;
+    color:rgb(23, 232, 232);
+    text-align: center;
+    
+}    
+.spr2 img{
+    float: right;
+    border-radius: 50px;
+
+}
+
+.spr2 p{
+    font-size: 20px;
+
+    font-family: inherit;
+    margin-left: 20px;
+}
+.spr3{
+    margin-top: 50px;
+}
+.spr3 h2{
+    padding: 20px;
+    color:rgb(23, 232, 232);
+    text-align: center;
+}    
+.spr3 img{
+    float: right;
+    border-radius: 50px;
+
+}
+
+.spr3 p{
+    font-size: 20px;
+
+    font-family: inherit;
+    margin-left: 20px;
+}
+.spr4{
+    margin-top: 50px;
+}
+.spr4 h2{
+
+    color:rgb(23, 232, 232);
+    text-align: center;
+    padding: 20px;
+}    
+.spr4 img{
+    float: right;
+    border-radius: 50px;
+
+}
+
+.spr4 p{
+    font-size: 20px;
+
+    font-family: inherit;
+    margin-left: 20px;
+}
+.spr5{
+    margin-top: 50px;
+}
+.spr5 h2{
+
+    color:rgb(23, 232, 232);
+    padding: 20px;
+    text-align: center;
+}    
+.spr5 img{
+    float: right;
+    border-radius: 50px;
+
+}
+
+.spr5 p{
+    font-size: 20px;
+
+    font-family: inherit;
+    margin-left: 20px;
+}
+.reg{
+    width: 95%;
+    height: 140px;
+    background-color: rgb(162, 240, 147);
+    margin-left: 25px;
+   }
+   .reg h2{
+       text-align: center;
+       color:  rgb(48, 86, 86);;
+       font-size: 35px;
+   }
+   .reg p{
+       padding: 0px;
+       text-align: center;
+       font-size: 20px;
+       font-family: inherit;
+   } 
+       #table1{
+           margin: auto;
+           text-align: right;
+          }
+          #table2{
+           margin: auto;
+           text-align: left;
+          }
+          td{
+           border-bottom: 1px solid black;
+           padding: 10px;
+           text-align: center;
+          }
+          #work{
+           font-size: 30px;
+           color:darkslategrey;
+           text-align: center;
+          }
+          #right1{
+           text-align:center;
+           font-size: 20px;
+           font-family: inherit;
+           color:darkslategrey;
+          }
+          #right{
+           text-align: center;
+           color: black;
+          }
+          #conference
+          {
+           display: grid;
+           grid-template-columns: auto auto;
+          }
+          h5{
+           font-size: 20px;
+           color: green;
+          }
+          #con1{
+           margin-left: 60px;
+          }
+          .reg{
+            width: 95%;
+            height: 140px;
+            background-color: rgb(162, 240, 147);
+            margin-left: 25px;
+           }
+           .reg h2{
+               text-align: center;
+               color: rgb(48, 86, 86);
+               font-size: 35px;
+           }
+           .reg p{
+               padding: 0px;
+               text-align: center;
+               font-size: 20px;
+               font-family: inherit;
+           }
+           .box1{
+               margin-top: 30px;
+               margin-left:20px;
+               
+               
+               margin: left;
+           }
+           .box1 h2{
+               color: rgb(56, 164, 222);
+            font-weight: bold;
+           }
+           .box1 h3{
+               color: rgb(56, 164, 222);
+           }
+           .box2{
+               margin-top:30px;
+               margin-left: 40px;
+           
+               margin: right;
+           }
+           
+           .conatin{
+               display: grid;
+               grid-gap: 20px;
+               grid-template-columns: repeat(2, 1fr);
+           }
+           .box2 input[type=number]{
+               width: 330px;
+               height: 35px;
+               padding-left: 10px;
+               font-size: 15px;
+               border: 2px solid gray;
+             }
+             .box2 input[type=text]{
+               width: 330px;
+               height: 35px;
+               padding-left: 10px;
+               font-size: 15px;
+               border: 2px solid gray;
+             }
+             .box2 input[type=email]{
+               width: 330px;
+               height: 35px;
+               padding-left: 10px;
+               font-size: 15px;
+               border: 2px solid gray;
+             }
+             .box2 textarea{
+               border: 2px solid gray;
+             }
+             .box2 button{
+               width: 200px;
+               height: 40px;
+               margin-left: 50px;
+               font-size: 20px;
+               border-radius: 20px;
+               background-color: orangered;
+               color:blue;
+               font-family: inherit;
+             }
+             .box1 h3{
+               font-family: inherit;
+               font-weight: bold;
+               color:rgb(81, 255, 0);
+             }
+             .box1 p{
+               font-family: inherit;
+               font-size: 19px;
+               
+             }

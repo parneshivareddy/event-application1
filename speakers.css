@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: rgba(6,6,6,0.8);
+    width:95%;
+    height: 20%;
+    margin-left: 25px;
+    position: fixed;
+}
+
+
+    
+.logo{
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    float: left;
+}
+.date{
+    font-family: inherit;
+    font-weight: bold;
+    color:aqua;
+    float: left;
+    margin-left: 700px;
+    padding: 20px;
+    
+}
+.main{
+    float:inline-end;
+    padding: 10px;
+    margin: 0px;
+    
+    
+}
+ul li {
+    display: inline-block;
+    text-align: center;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    
+}
+.reg{
+ width: 95%;
+ height: 140px;
+ background-color: rgb(162, 240, 147);
+ margin-left: 25px;
+}
+.reg h2{
+    text-align: center;
+    color:  rgb(48, 86, 86);;
+    font-size: 35px;
+}
+.reg p{
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: inherit;
+}
+.spr1{
+    margin-top: 50px;
+    border-color: blue;
+    border: 20px 20px 20px 20px;
+}
+.spr1 h2{
+
+    color:rgb(23, 232, 232);
+    padding: 20px;
+    text-align: center;
+    
+}    
+.spr1 img{
+    float: right;
+    border-radius: 50px;
+}
+.spr1 p{
+    font-size: 20px;
+
+    font-family: inherit;
+    margin-left: 20px;
+}
+.spr2{
+    margin-top: 50px;
+}
+.spr2 h2{
+    padding: 20px;
+    color:rgb(23, 232, 232);
+    text-align: center;
+    
+}    
+.spr2 img{
+    float: right;
+    border-radius: 50px;
+
+}
+
+.spr2 p{
+    font-size: 20px;
+
+    font-family: inherit;
+    margin-left: 20px;
+}
+.spr3{
+    margin-top: 50px;
+}
+.spr3 h2{
+    padding: 20px;
+    color:rgb(23, 232, 232);
+    text-align: center;
+}    
+.spr3 img{
+    float: right;
+    border-radius: 50px;
+
+}
+
+.spr3 p{
+    font-size: 20px;
+
+    font-family: inherit;
+    margin-left: 20px;
+}
+.spr4{
+    margin-top: 50px;
+}
+.spr4 h2{
+
+    color:rgb(23, 232, 232);
+    text-align: center;
+    padding: 20px;
+}    
+.spr4 img{
+    float: right;
+    border-radius: 50px;
+
+}
+
+.spr4 p{
+    font-size: 20px;
+
+    font-family: inherit;
+    margin-left: 20px;
+}
+.spr5{
+    margin-top: 50px;
+}
+.spr5 h2{
+
+    color:rgb(23, 232, 232);
+    padding: 20px;
+    text-align: center;
+}    
+.spr5 img{
+    float: right;
+    border-radius: 50px;
+
+}
+
+.spr5 p{
+    font-size: 20px;
+
+    font-family: inherit;
+    margin-left: 20px;
+}

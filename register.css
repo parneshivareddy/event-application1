@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: darkslategrey;
+    width:95%;
+    height: 20%;
+    margin-left: 25px;
+    position: fixed;
+}
+
+
+    
+.logo{
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    float: left;
+}
+.date{
+    font-family: inherit;
+    font-weight: bold;
+    color:aqua;
+    float: left;
+    margin-left: 700px;
+    padding: 20px;
+    
+}
+
+.main{
+    float:inline-end;
+    padding: 10px;
+    margin: 0px;
+    
+    
+}
+ul li {
+    display: inline-block;
+    text-align: center;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    
+}
+.reg{
+ width: 95%;
+ height: 140px;
+ background-color: rgb(162, 240, 147);
+ margin-left: 25px;
+}
+.reg h2{
+    text-align: center;
+    color: rgb(48, 86, 86);
+    font-size: 35px;
+}
+.reg p{
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: inherit;
+}
+.box1{
+    margin-top: 30px;
+    margin-left:20px;
+    
+    
+    margin: left;
+}
+.box1 h2{
+    color: rgb(56, 164, 222);
+ font-weight: bold;
+}
+.box1 h3{
+    color: rgb(56, 164, 222);
+}
+.box2{
+    margin-top:30px;
+    margin-left: 40px;
+
+    margin: right;
+}
+
+.conatin{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.box2 input[type=number]{
+    width: 330px;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 2px solid gray;
+  }
+  .box2 input[type=text]{
+    width: 330px;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 2px solid gray;
+  }
+  .box2 input[type=email]{
+    width: 330px;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 2px solid gray;
+  }
+  .box2 textarea{
+    border: 2px solid gray;
+  }
+  .box2 button{
+    width: 200px;
+    height: 40px;
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: orangered;
+    color:blue;
+    font-family: inherit;
+  }
+  .box1 h3{
+    font-family: inherit;
+    font-weight: bold;
+    color:rgb(81, 255, 0);
+  }
+  .box1 p{
+    font-family: inherit;
+    font-size: 19px;
+    
+  }
